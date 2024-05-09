@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.title_image{
+    background-image: url("../assets/images/angel-jimenez.jpg");
+    text-align: center;
+    font-size: 90px;
+    background-position: center;
+    padding: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(255, 255, 255);
+   
+}
+
+#titulo{
+    text-align: center;
+    font-size: 100px;
+    font-family: sans-serif;
+}
+
+
+.main{
+    display: flex;
+    width: 1000px;
+    background:blanchedalmond;
+    justify-content: center;
+    box-sizing: content-box;
+}
+
+
+
+.music{
+    font-family:sans-serif;
+    font-size: 55px;
+    background: -webkit-linear-gradient( #fb4e5c, #ff00b7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.word{
+    font-family:sans-serif;
+    font-size:  55px;
+}
+.text1{
+    font-family:sans-serif;
+    line-height: 2.0;
+    text-align: justify;
+}
+
+#Imagen2{
+    height: 80px;
+    width: auto;
+}
+
+.button{
+    background-color: #fb4e5c;
+    color: white;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 60px;
+}
+
+.number1{
+    display: flex;
+    justify-content: center;
+    margin: 200px;
+}
+
+.number2{
+    display: flex;
+    justify-content: center;
+    margin: 200px;
+    
+}
+.caja1{
+    margin: 60px;
+}
+
+.caja2{
+    margin: 50px;
+}
+
+.fondo{
+    background-image: url("../assets/images/john-raptis.png");
+    height: 800px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    margin: 0;
+}
+
+.text_fondo{
+    max-width: 40%;
+    margin: 40px 70px;
+    justify-content: flex-end;
+    text-align: justify;
+}
+
+.pie {
+    color: rgb(255, 255, 255);
+    background:#fb4e5c;
+    padding: .20rem .8rem;
+}
+
+.info_tabla{
+   color: white;
+ justify-content: center;
+   padding: 80px 250px;;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+   line-height: 2.0;
+}
+
+td {
+    width: 31%;
+    letter-spacing: 1px;
+    justify-content: space-around;
+}
+
+.tdnumero1{
+    line-height: 8.0;
+}
+hr{
+    width: 80%; /* Ancho de la línea separadora */
+    border-style: solid; /* Estilo de la línea */
+    border-width: 0.1px; /* Grosor de la línea */
+    border-color:rgba(0, 0, 0, 0.2); /* Color de la línea */
+}
+.footer{
+    margin-top: 10px; /* Espacio superior para separar del hr */
+    padding: 25px 161px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+  
